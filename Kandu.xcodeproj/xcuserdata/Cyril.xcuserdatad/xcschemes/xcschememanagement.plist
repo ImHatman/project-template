@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Kandu-internal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Kandu-production.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F1571A011ED7237C00BB8019</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1ABB71E1ED71F2D00C661FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1ABB73C1ED7227E00C661FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1ABB7571ED7228C00C661FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

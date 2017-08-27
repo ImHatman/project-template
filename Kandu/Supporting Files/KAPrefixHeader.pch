@@ -1,0 +1,59 @@
+//
+//  KAPrefixHeader.pch
+//  Kandu
+//
+//  Created by Cyril's Mac on 25/05/17.
+//  Copyright © 2017 Geoks. All rights reserved.
+//
+
+#ifndef KAPrefixHeader_pch
+#define KAPrefixHeader_pch
+
+#define UNINITIALIZED_FLOAT CGFLOAT_MAX
+
+#define NAV_BAR_HEIGHT 44
+#define STATUS_BAR_HEIGHT 20
+
+#define IS_IPHONE_4 ([[UIScreen mainScreen] bounds].size.height == 480.0)
+#define IS_IPHONE_5 ([[UIScreen mainScreen] bounds].size.height == 568.0)
+#define IS_IPHONE_6 ([[UIScreen mainScreen] bounds].size.height == 667.0)
+#define IS_IPHONE_6_PLUS ([[UIScreen mainScreen] bounds].size.height == 736.0)
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#ifdef __OBJC__
+
+// Debug
+#import "KADebugHelper.h"
+
+// Native Frameworks
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Toolbox
+#import "KAToolbox.h"
+
+// Categories
+#import "NSString+Utils.h"
+#import "UIColor+Kandu.h"
+#import "UIImage+Utils.h"
+#import "NSMutableDictionary+Utils.h"
+#import "UIViewController+Utils.h"
+#import "UIFont+Kandu.h"
+#import "UIView+Kandu.h"
+#import "UIView+Utils.h"
+#import "UIImageView+Utils.h"
+#import "NSArray+Utils.h"
+#import "NSAttributedString+Kandu.h"
+#import <SDWebImage/UIImageView+WebCache.h> // From SDWebImage Framework
+
+// Pods
+#import "SVProgressHUD.h"
+
+#endif
+
+#endif /* KAPrefixHeader_pch */

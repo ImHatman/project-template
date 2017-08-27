@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453079E49E9D0FDC5F315827 /* libPods-WeaveTime-production.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D058F25B55F9D583C6D083 /* libPods-WeaveTime-production.a */; };
+		C4FE6FB8E1766AF3241B4365 /* libPods-WeaveTime-internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD1EE6F1B8AE1EA8BBCCC13 /* libPods-WeaveTime-internal.a */; };
+		F10F1F701EE8BBFC001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
+		F10F1F711EE8BBFD001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
+		F1313B1B1EEB651D00817C00 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */; };
+		F1313B1C1EEB651D00817C00 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */; };
+		F1313B201EEB659B00817C00 /* KAToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1F1EEB659B00817C00 /* KAToolbox.m */; };
+		F1313B211EEB659B00817C00 /* KAToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1F1EEB659B00817C00 /* KAToolbox.m */; };
+		F1313B291EEB662100817C00 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B281EEB662100817C00 /* Reachability.m */; };
+		F1313B2A1EEB662100817C00 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B281EEB662100817C00 /* Reachability.m */; };
+		F1313B381EEBE56300817C00 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1313B371EEBE56300817C00 /* Onboarding.storyboard */; };
+		F1313B391EEBE56300817C00 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1313B371EEBE56300817C00 /* Onboarding.storyboard */; };
+		F15719FA1ED7230F00BB8019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB7481ED7227E00C661FE /* Main.storyboard */; };
+		F15719FB1ED7231200BB8019 /* KAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ABB7431ED7227E00C661FE /* KAAppDelegate.m */; };
+		F15719FC1ED7231800BB8019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74D1ED7227E00C661FE /* LaunchScreen.storyboard */; };
+		F1571A191ED723BC00BB8019 /* KAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ABB7431ED7227E00C661FE /* KAAppDelegate.m */; };
+		F1571A1B1ED723C400BB8019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB7481ED7227E00C661FE /* Main.storyboard */; };
+		F1571A1C1ED723C800BB8019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74D1ED7227E00C661FE /* LaunchScreen.storyboard */; };
+		F1571A211ED7256F00BB8019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ABB7401ED7227E00C661FE /* main.m */; };
+		F1571A221ED7256F00BB8019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ABB7401ED7227E00C661FE /* main.m */; };
+		F1571A4D1ED76D6800BB8019 /* KASplashScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1571A4C1ED76D6800BB8019 /* KASplashScreenVC.m */; };
+		F1571A4E1ED76D6800BB8019 /* KASplashScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1571A4C1ED76D6800BB8019 /* KASplashScreenVC.m */; };
+		F1571A511ED8652200BB8019 /* KAUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1571A501ED8652200BB8019 /* KAUserManager.m */; };
+		F1571A521ED8652200BB8019 /* KAUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1571A501ED8652200BB8019 /* KAUserManager.m */; };
+		F1593DEC1F52E6E900B8E382 /* KAAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F1593DE71F52E6E900B8E382 /* KAAPIClient.m */; };
+		F1593DED1F52E6E900B8E382 /* KAEnvManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1593DE91F52E6E900B8E382 /* KAEnvManager.m */; };
+		F1593DEE1F52E6E900B8E382 /* KAUserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1593DEB1F52E6E900B8E382 /* KAUserDefaultsManager.m */; };
+		F1593DF31F52E75B00B8E382 /* KAPopupFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F1593DF01F52E75B00B8E382 /* KAPopupFactory.m */; };
+		F1593DF41F52E75B00B8E382 /* KASlidingPopupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1593DF21F52E75B00B8E382 /* KASlidingPopupManager.m */; };
+		F1593DF91F52E78B00B8E382 /* KALayoutResponderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1593DF81F52E78B00B8E382 /* KALayoutResponderView.m */; };
+		F1593DFC1F52E82D00B8E382 /* KAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1593DFB1F52E82D00B8E382 /* KAUser.m */; };
+		F178605E1F0ACE4700B39D9B /* UIImageView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F178605D1F0ACE4700B39D9B /* UIImageView+Utils.m */; };
+		F178605F1F0ACE4700B39D9B /* UIImageView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F178605D1F0ACE4700B39D9B /* UIImageView+Utils.m */; };
+		F1981B6E1EF1E0DF00195A5E /* UIFont+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1981B6D1EF1E0DF00195A5E /* UIFont+Kandu.m */; };
+		F1981B6F1EF1E0DF00195A5E /* UIFont+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1981B6D1EF1E0DF00195A5E /* UIFont+Kandu.m */; };
+		F1981B731EF3243900195A5E /* UIView+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1981B721EF3243900195A5E /* UIView+Kandu.m */; };
+		F1981B741EF3243900195A5E /* UIView+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1981B721EF3243900195A5E /* UIView+Kandu.m */; };
+		F1981B781EF3405900195A5E /* NSAttributedString+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1981B771EF3405900195A5E /* NSAttributedString+Kandu.m */; };
+		F1981B791EF3405900195A5E /* NSAttributedString+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1981B771EF3405900195A5E /* NSAttributedString+Kandu.m */; };
+		F1AB74051EF0942D00A3FC8F /* KADebugHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB74041EF0942D00A3FC8F /* KADebugHelper.m */; };
+		F1AB74061EF0942D00A3FC8F /* KADebugHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB74041EF0942D00A3FC8F /* KADebugHelper.m */; };
+		F1BA3BFC1EF9B25A00AD64A0 /* NSArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA3BFB1EF9B25A00AD64A0 /* NSArray+Utils.m */; };
+		F1BA3BFD1EF9B25A00AD64A0 /* NSArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA3BFB1EF9B25A00AD64A0 /* NSArray+Utils.m */; };
+		F1E8D7C41F52E14D00836AD8 /* NSMutableDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7BD1F52E14D00836AD8 /* NSMutableDictionary+Utils.m */; };
+		F1E8D7C51F52E14D00836AD8 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7BF1F52E14D00836AD8 /* NSString+Utils.m */; };
+		F1E8D7C61F52E14D00836AD8 /* UIColor+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7C11F52E14D00836AD8 /* UIColor+Kandu.m */; };
+		F1E8D7C71F52E14D00836AD8 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7C31F52E14D00836AD8 /* UIImage+Utils.m */; };
+		F1E8D7CA1F52E16500836AD8 /* KARequestOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7C91F52E16500836AD8 /* KARequestOperator.m */; };
+		F1EA7EDA1EF52CE70079C43B /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EA7ED91EF52CE70079C43B /* UIView+Utils.m */; };
+		F1EA7EDB1EF52CE70079C43B /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EA7ED91EF52CE70079C43B /* UIView+Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13F6A704925099124BEF7172 /* Pods-WeaveTime-production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-production.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production.debug.xcconfig"; sourceTree = "<group>"; };
+		28ADD29829C82E1AF29919C0 /* Pods-WeaveTime-internal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-internal.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal.release.xcconfig"; sourceTree = "<group>"; };
+		5F40C6CD8185C11FAABB03DC /* Pods-WeaveTime-internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6F316D423D3570857C781F /* Pods-WeaveTime-production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-production.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production.release.xcconfig"; sourceTree = "<group>"; };
+		B0D058F25B55F9D583C6D083 /* libPods-WeaveTime-production.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaveTime-production.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD1EE6F1B8AE1EA8BBCCC13 /* libPods-WeaveTime-internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaveTime-internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1313B191EEB651D00817C00 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		F1313B1F1EEB659B00817C00 /* KAToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAToolbox.m; sourceTree = "<group>"; };
+		F1313B271EEB662100817C00 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F1313B281EEB662100817C00 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F1313B371EEBE56300817C00 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Onboarding.storyboard; path = ../Onboarding.storyboard; sourceTree = "<group>"; };
+		F1571A021ED7237C00BB8019 /* Kandu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kandu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1571A1E1ED7242900BB8019 /* Info-internal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-internal.plist"; sourceTree = "<group>"; };
+		F1571A411ED76B9D00BB8019 /* KAPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAPrefixHeader.pch; sourceTree = "<group>"; };
+		F1571A4B1ED76D6800BB8019 /* KASplashScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASplashScreenVC.h; sourceTree = "<group>"; };
+		F1571A4C1ED76D6800BB8019 /* KASplashScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASplashScreenVC.m; sourceTree = "<group>"; };
+		F1571A4F1ED8652200BB8019 /* KAUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAUserManager.h; sourceTree = "<group>"; };
+		F1571A501ED8652200BB8019 /* KAUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAUserManager.m; sourceTree = "<group>"; };
+		F1593DE21F52E4D600B8E382 /* KAToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAToolbox.h; sourceTree = "<group>"; };
+		F1593DE61F52E6E900B8E382 /* KAAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAAPIClient.h; sourceTree = "<group>"; };
+		F1593DE71F52E6E900B8E382 /* KAAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAAPIClient.m; sourceTree = "<group>"; };
+		F1593DE81F52E6E900B8E382 /* KAEnvManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAEnvManager.h; sourceTree = "<group>"; };
+		F1593DE91F52E6E900B8E382 /* KAEnvManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAEnvManager.m; sourceTree = "<group>"; };
+		F1593DEA1F52E6E900B8E382 /* KAUserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAUserDefaultsManager.h; sourceTree = "<group>"; };
+		F1593DEB1F52E6E900B8E382 /* KAUserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAUserDefaultsManager.m; sourceTree = "<group>"; };
+		F1593DEF1F52E75B00B8E382 /* KAPopupFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAPopupFactory.h; sourceTree = "<group>"; };
+		F1593DF01F52E75B00B8E382 /* KAPopupFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAPopupFactory.m; sourceTree = "<group>"; };
+		F1593DF11F52E75B00B8E382 /* KASlidingPopupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASlidingPopupManager.h; sourceTree = "<group>"; };
+		F1593DF21F52E75B00B8E382 /* KASlidingPopupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASlidingPopupManager.m; sourceTree = "<group>"; };
+		F1593DF71F52E78B00B8E382 /* KALayoutResponderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KALayoutResponderView.h; sourceTree = "<group>"; };
+		F1593DF81F52E78B00B8E382 /* KALayoutResponderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KALayoutResponderView.m; sourceTree = "<group>"; };
+		F1593DFA1F52E82D00B8E382 /* KAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAUser.h; path = Model/KAUser.h; sourceTree = "<group>"; };
+		F1593DFB1F52E82D00B8E382 /* KAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAUser.m; path = Model/KAUser.m; sourceTree = "<group>"; };
+		F178605C1F0ACE4700B39D9B /* UIImageView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Utils.h"; sourceTree = "<group>"; };
+		F178605D1F0ACE4700B39D9B /* UIImageView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Utils.m"; sourceTree = "<group>"; };
+		F1981B6C1EF1E0DF00195A5E /* UIFont+Kandu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Kandu.h"; sourceTree = "<group>"; };
+		F1981B6D1EF1E0DF00195A5E /* UIFont+Kandu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Kandu.m"; sourceTree = "<group>"; };
+		F1981B711EF3243900195A5E /* UIView+Kandu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Kandu.h"; sourceTree = "<group>"; };
+		F1981B721EF3243900195A5E /* UIView+Kandu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Kandu.m"; sourceTree = "<group>"; };
+		F1981B761EF3405900195A5E /* NSAttributedString+Kandu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Kandu.h"; sourceTree = "<group>"; };
+		F1981B771EF3405900195A5E /* NSAttributedString+Kandu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Kandu.m"; sourceTree = "<group>"; };
+		F1AB74031EF0942D00A3FC8F /* KADebugHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KADebugHelper.h; sourceTree = "<group>"; };
+		F1AB74041EF0942D00A3FC8F /* KADebugHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KADebugHelper.m; sourceTree = "<group>"; };
+		F1ABB7401ED7227E00C661FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1ABB7421ED7227E00C661FE /* KAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAAppDelegate.h; sourceTree = "<group>"; };
+		F1ABB7431ED7227E00C661FE /* KAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAAppDelegate.m; sourceTree = "<group>"; };
+		F1ABB7491ED7227E00C661FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1ABB74B1ED7227E00C661FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		F1ABB74E1ED7227E00C661FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1ABB7501ED7227E00C661FE /* Info-production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-production.plist"; sourceTree = "<group>"; };
+		F1ABB7581ED7228C00C661FE /* Kandu-internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kandu-internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BA3BFA1EF9B25A00AD64A0 /* NSArray+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utils.h"; sourceTree = "<group>"; };
+		F1BA3BFB1EF9B25A00AD64A0 /* NSArray+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utils.m"; sourceTree = "<group>"; };
+		F1E8D7BC1F52E14D00836AD8 /* NSMutableDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Utils.h"; path = "Kandu/Sources/Categories/NSMutableDictionary+Utils.h"; sourceTree = SOURCE_ROOT; };
+		F1E8D7BD1F52E14D00836AD8 /* NSMutableDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Utils.m"; path = "Kandu/Sources/Categories/NSMutableDictionary+Utils.m"; sourceTree = SOURCE_ROOT; };
+		F1E8D7BE1F52E14D00836AD8 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "Kandu/Sources/Categories/NSString+Utils.h"; sourceTree = SOURCE_ROOT; };
+		F1E8D7BF1F52E14D00836AD8 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "Kandu/Sources/Categories/NSString+Utils.m"; sourceTree = SOURCE_ROOT; };
+		F1E8D7C01F52E14D00836AD8 /* UIColor+Kandu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Kandu.h"; path = "Kandu/Sources/Categories/UIColor+Kandu.h"; sourceTree = SOURCE_ROOT; };
+		F1E8D7C11F52E14D00836AD8 /* UIColor+Kandu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Kandu.m"; path = "Kandu/Sources/Categories/UIColor+Kandu.m"; sourceTree = SOURCE_ROOT; };
+		F1E8D7C21F52E14D00836AD8 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Utils.h"; path = "Kandu/Sources/Categories/UIImage+Utils.h"; sourceTree = SOURCE_ROOT; };
+		F1E8D7C31F52E14D00836AD8 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Utils.m"; path = "Kandu/Sources/Categories/UIImage+Utils.m"; sourceTree = SOURCE_ROOT; };
+		F1E8D7C81F52E16500836AD8 /* KARequestOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KARequestOperator.h; sourceTree = "<group>"; };
+		F1E8D7C91F52E16500836AD8 /* KARequestOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KARequestOperator.m; sourceTree = "<group>"; };
+		F1EA7ED81EF52CE70079C43B /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		F1EA7ED91EF52CE70079C43B /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15719FF1ED7237C00BB8019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453079E49E9D0FDC5F315827 /* libPods-WeaveTime-production.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1ABB7551ED7228C00C661FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FE6FB8E1766AF3241B4365 /* libPods-WeaveTime-internal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5130671BB92A3ED2244BF30C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F40C6CD8185C11FAABB03DC /* Pods-WeaveTime-internal.debug.xcconfig */,
+				28ADD29829C82E1AF29919C0 /* Pods-WeaveTime-internal.release.xcconfig */,
+				13F6A704925099124BEF7172 /* Pods-WeaveTime-production.debug.xcconfig */,
+				7A6F316D423D3570857C781F /* Pods-WeaveTime-production.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88B0562F856203FEE707FC24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD1EE6F1B8AE1EA8BBCCC13 /* libPods-WeaveTime-internal.a */,
+				B0D058F25B55F9D583C6D083 /* libPods-WeaveTime-production.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F10F1F721EE9207C001061A9 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				F1E8D7C21F52E14D00836AD8 /* UIImage+Utils.h */,
+				F1E8D7C31F52E14D00836AD8 /* UIImage+Utils.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		F10F1F771EE92643001061A9 /* Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				F1593DE21F52E4D600B8E382 /* KAToolbox.h */,
+				F1313B1F1EEB659B00817C00 /* KAToolbox.m */,
+			);
+			name = Toolbox;
+			sourceTree = "<group>";
+		};
+		F1313B061EEB421800817C00 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				F1593DE81F52E6E900B8E382 /* KAEnvManager.h */,
+				F1593DE91F52E6E900B8E382 /* KAEnvManager.m */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		F1313B0B1EEB478100817C00 /* NSMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F1E8D7BC1F52E14D00836AD8 /* NSMutableDictionary+Utils.h */,
+				F1E8D7BD1F52E14D00836AD8 /* NSMutableDictionary+Utils.m */,
+			);
+			path = NSMutableDictionary;
+			sourceTree = "<group>";
+		};
+		F1313B101EEB5C3700817C00 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F1313B191EEB651D00817C00 /* UIViewController+Utils.h */,
+				F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		F1313B1D1EEB653B00817C00 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F1313B271EEB662100817C00 /* Reachability.h */,
+				F1313B281EEB662100817C00 /* Reachability.m */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		F1313B261EEB660500817C00 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F1E8D7C81F52E16500836AD8 /* KARequestOperator.h */,
+				F1E8D7C91F52E16500836AD8 /* KARequestOperator.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F1313B3F1EEBF0A900817C00 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F1571A4B1ED76D6800BB8019 /* KASplashScreenVC.h */,
+				F1571A4C1ED76D6800BB8019 /* KASplashScreenVC.m */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		F15719FD1ED7231F00BB8019 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				F1571A1E1ED7242900BB8019 /* Info-internal.plist */,
+				F1ABB7501ED7227E00C661FE /* Info-production.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		F1571A2E1ED7282E00BB8019 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB73FD1EF08E5D00A3FC8F /* Views */,
+				F1313B1D1EEB653B00817C00 /* Libraries */,
+				F1571A571ED8669600BB8019 /* Model */,
+				F1571A461ED76CDA00BB8019 /* Controllers */,
+				F1571A381ED760C700BB8019 /* Singletons */,
+				F1571A2F1ED728E000BB8019 /* Categories */,
+				F1571A3C1ED768CF00BB8019 /* Others */,
+				F17860601F0ADF4900B39D9B /* Storyboards */,
+				F1ABB7421ED7227E00C661FE /* KAAppDelegate.h */,
+				F1ABB7431ED7227E00C661FE /* KAAppDelegate.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F1571A2F1ED728E000BB8019 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F178605B1F0ACE2700B39D9B /* UIImageView */,
+				F1BA3BF91EF9B24500AD64A0 /* NSArray */,
+				F1981B751EF3404500195A5E /* NSAttributedString */,
+				F1313B0B1EEB478100817C00 /* NSMutableDictionary */,
+				F1571A391ED7610F00BB8019 /* NSString */,
+				F1571A5A1EDB679500BB8019 /* UIColor */,
+				F1981B6B1EF1E0B500195A5E /* UIFont */,
+				F10F1F721EE9207C001061A9 /* UIImage */,
+				F1981B701EF3242300195A5E /* UIView */,
+				F1313B101EEB5C3700817C00 /* UIViewController */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F1571A381ED760C700BB8019 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				F1313B061EEB421800817C00 /* Environment */,
+				F1571A591EDB678000BB8019 /* User Manager */,
+				F1571A3B1ED7689B00BB8019 /* Networking */,
+				F1571A3A1ED7611C00BB8019 /* User Defaults */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		F1571A391ED7610F00BB8019 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				F1E8D7BE1F52E14D00836AD8 /* NSString+Utils.h */,
+				F1E8D7BF1F52E14D00836AD8 /* NSString+Utils.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		F1571A3A1ED7611C00BB8019 /* User Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				F1593DEA1F52E6E900B8E382 /* KAUserDefaultsManager.h */,
+				F1593DEB1F52E6E900B8E382 /* KAUserDefaultsManager.m */,
+			);
+			name = "User Defaults";
+			sourceTree = "<group>";
+		};
+		F1571A3B1ED7689B00BB8019 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F1593DE61F52E6E900B8E382 /* KAAPIClient.h */,
+				F1593DE71F52E6E900B8E382 /* KAAPIClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F1571A3C1ED768CF00BB8019 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F1313B261EEB660500817C00 /* Networking */,
+				F10F1F771EE92643001061A9 /* Toolbox */,
+				F1AB74031EF0942D00A3FC8F /* KADebugHelper.h */,
+				F1AB74041EF0942D00A3FC8F /* KADebugHelper.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F1571A461ED76CDA00BB8019 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1313B3F1EEBF0A900817C00 /* Splash */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1571A571ED8669600BB8019 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1593DFA1F52E82D00B8E382 /* KAUser.h */,
+				F1593DFB1F52E82D00B8E382 /* KAUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F1571A591EDB678000BB8019 /* User Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F1571A4F1ED8652200BB8019 /* KAUserManager.h */,
+				F1571A501ED8652200BB8019 /* KAUserManager.m */,
+			);
+			name = "User Manager";
+			sourceTree = "<group>";
+		};
+		F1571A5A1EDB679500BB8019 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				F1E8D7C01F52E14D00836AD8 /* UIColor+Kandu.h */,
+				F1E8D7C11F52E14D00836AD8 /* UIColor+Kandu.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		F178605B1F0ACE2700B39D9B /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				F178605C1F0ACE4700B39D9B /* UIImageView+Utils.h */,
+				F178605D1F0ACE4700B39D9B /* UIImageView+Utils.m */,
+			);
+			name = UIImageView;
+			sourceTree = "<group>";
+		};
+		F17860601F0ADF4900B39D9B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F1ABB7481ED7227E00C661FE /* Main.storyboard */,
+				F1313B371EEBE56300817C00 /* Onboarding.storyboard */,
+				F1ABB74D1ED7227E00C661FE /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F1981B6B1EF1E0B500195A5E /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				F1981B6C1EF1E0DF00195A5E /* UIFont+Kandu.h */,
+				F1981B6D1EF1E0DF00195A5E /* UIFont+Kandu.m */,
+			);
+			name = UIFont;
+			sourceTree = "<group>";
+		};
+		F1981B701EF3242300195A5E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F1981B711EF3243900195A5E /* UIView+Kandu.h */,
+				F1981B721EF3243900195A5E /* UIView+Kandu.m */,
+				F1EA7ED81EF52CE70079C43B /* UIView+Utils.h */,
+				F1EA7ED91EF52CE70079C43B /* UIView+Utils.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		F1981B751EF3404500195A5E /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				F1981B761EF3405900195A5E /* NSAttributedString+Kandu.h */,
+				F1981B771EF3405900195A5E /* NSAttributedString+Kandu.m */,
+			);
+			name = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		F1AB73FD1EF08E5D00A3FC8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1593DF71F52E78B00B8E382 /* KALayoutResponderView.h */,
+				F1593DF81F52E78B00B8E382 /* KALayoutResponderView.m */,
+				F1BA3BE91EF8790400AD64A0 /* Popups */,
+				F1C3A7E61EF567B2004FB7DC /* Table View Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1ABB7161ED71F2D00C661FE = {
+			isa = PBXGroup;
+			children = (
+				F1ABB73E1ED7227E00C661FE /* Kandu */,
+				F1ABB7201ED71F2D00C661FE /* Products */,
+				5130671BB92A3ED2244BF30C /* Pods */,
+				88B0562F856203FEE707FC24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1ABB7201ED71F2D00C661FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1ABB7581ED7228C00C661FE /* Kandu-internal.app */,
+				F1571A021ED7237C00BB8019 /* Kandu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1ABB73E1ED7227E00C661FE /* Kandu */ = {
+			isa = PBXGroup;
+			children = (
+				F1571A2E1ED7282E00BB8019 /* Sources */,
+				F1ABB73F1ED7227E00C661FE /* Supporting Files */,
+			);
+			path = Kandu;
+			sourceTree = "<group>";
+		};
+		F1ABB73F1ED7227E00C661FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1ABB74B1ED7227E00C661FE /* Assets.xcassets */,
+				F1ABB7401ED7227E00C661FE /* main.m */,
+				F15719FD1ED7231F00BB8019 /* plist */,
+				F1571A411ED76B9D00BB8019 /* KAPrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1BA3BE91EF8790400AD64A0 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				F1593DEF1F52E75B00B8E382 /* KAPopupFactory.h */,
+				F1593DF01F52E75B00B8E382 /* KAPopupFactory.m */,
+				F1593DF11F52E75B00B8E382 /* KASlidingPopupManager.h */,
+				F1593DF21F52E75B00B8E382 /* KASlidingPopupManager.m */,
+				F1BA3BFE1EF9B47B00AD64A0 /* Popups Views */,
+			);
+			name = Popups;
+			path = ../Popups;
+			sourceTree = "<group>";
+		};
+		F1BA3BF91EF9B24500AD64A0 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				F1BA3BFA1EF9B25A00AD64A0 /* NSArray+Utils.h */,
+				F1BA3BFB1EF9B25A00AD64A0 /* NSArray+Utils.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		F1BA3BFE1EF9B47B00AD64A0 /* Popups Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Popups Views";
+			sourceTree = "<group>";
+		};
+		F1C3A7E61EF567B2004FB7DC /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1571A011ED7237C00BB8019 /* Kandu-production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1571A161ED7237C00BB8019 /* Build configuration list for PBXNativeTarget "Kandu-production" */;
+			buildPhases = (
+				E9295E1334E58CEC41006C74 /* [CP] Check Pods Manifest.lock */,
+				F15719FE1ED7237C00BB8019 /* Sources */,
+				F15719FF1ED7237C00BB8019 /* Frameworks */,
+				F1571A001ED7237C00BB8019 /* Resources */,
+				FCB4D951AD52C659B0259CE0 /* [CP] Embed Pods Frameworks */,
+				F37D5B85E72B51DE4D427201 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kandu-production";
+			productName = WeaveTime;
+			productReference = F1571A021ED7237C00BB8019 /* Kandu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1ABB7571ED7228C00C661FE /* Kandu-internal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1ABB76C1ED7228C00C661FE /* Build configuration list for PBXNativeTarget "Kandu-internal" */;
+			buildPhases = (
+				0B28897D54A4875E90AE1B14 /* [CP] Check Pods Manifest.lock */,
+				F1ABB7541ED7228C00C661FE /* Sources */,
+				F1ABB7551ED7228C00C661FE /* Frameworks */,
+				F1ABB7561ED7228C00C661FE /* Resources */,
+				7C8F1597876F1F8A365126E0 /* [CP] Embed Pods Frameworks */,
+				16D07C31C20D094EF478C52E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kandu-internal";
+			productName = "WeaveTime-internal";
+			productReference = F1ABB7581ED7228C00C661FE /* Kandu-internal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1ABB7171ED71F2D00C661FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Geoks;
+				TargetAttributes = {
+					F1571A011ED7237C00BB8019 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29XZE9TWMA;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					F1ABB7571ED7228C00C661FE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29XZE9TWMA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1ABB71A1ED71F2D00C661FE /* Build configuration list for PBXProject "Kandu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1ABB7161ED71F2D00C661FE;
+			productRefGroup = F1ABB7201ED71F2D00C661FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1571A011ED7237C00BB8019 /* Kandu-production */,
+				F1ABB7571ED7228C00C661FE /* Kandu-internal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1571A001ED7237C00BB8019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1313B381EEBE56300817C00 /* Onboarding.storyboard in Resources */,
+				F1571A1C1ED723C800BB8019 /* LaunchScreen.storyboard in Resources */,
+				F10F1F701EE8BBFC001061A9 /* Assets.xcassets in Resources */,
+				F1571A1B1ED723C400BB8019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1ABB7561ED7228C00C661FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1313B391EEBE56300817C00 /* Onboarding.storyboard in Resources */,
+				F15719FA1ED7230F00BB8019 /* Main.storyboard in Resources */,
+				F10F1F711EE8BBFD001061A9 /* Assets.xcassets in Resources */,
+				F15719FC1ED7231800BB8019 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B28897D54A4875E90AE1B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		16D07C31C20D094EF478C52E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8F1597876F1F8A365126E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9295E1334E58CEC41006C74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F37D5B85E72B51DE4D427201 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB4D951AD52C659B0259CE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15719FE1ED7237C00BB8019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1571A191ED723BC00BB8019 /* KAAppDelegate.m in Sources */,
+				F1AB74051EF0942D00A3FC8F /* KADebugHelper.m in Sources */,
+				F1E8D7C41F52E14D00836AD8 /* NSMutableDictionary+Utils.m in Sources */,
+				F1571A211ED7256F00BB8019 /* main.m in Sources */,
+				F1EA7EDA1EF52CE70079C43B /* UIView+Utils.m in Sources */,
+				F1313B291EEB662100817C00 /* Reachability.m in Sources */,
+				F1E8D7CA1F52E16500836AD8 /* KARequestOperator.m in Sources */,
+				F1313B1B1EEB651D00817C00 /* UIViewController+Utils.m in Sources */,
+				F1981B731EF3243900195A5E /* UIView+Kandu.m in Sources */,
+				F1593DF31F52E75B00B8E382 /* KAPopupFactory.m in Sources */,
+				F1571A4D1ED76D6800BB8019 /* KASplashScreenVC.m in Sources */,
+				F178605E1F0ACE4700B39D9B /* UIImageView+Utils.m in Sources */,
+				F1313B201EEB659B00817C00 /* KAToolbox.m in Sources */,
+				F1981B781EF3405900195A5E /* NSAttributedString+Kandu.m in Sources */,
+				F1E8D7C61F52E14D00836AD8 /* UIColor+Kandu.m in Sources */,
+				F1593DFC1F52E82D00B8E382 /* KAUser.m in Sources */,
+				F1BA3BFC1EF9B25A00AD64A0 /* NSArray+Utils.m in Sources */,
+				F1593DEE1F52E6E900B8E382 /* KAUserDefaultsManager.m in Sources */,
+				F1981B6E1EF1E0DF00195A5E /* UIFont+Kandu.m in Sources */,
+				F1593DF91F52E78B00B8E382 /* KALayoutResponderView.m in Sources */,
+				F1593DED1F52E6E900B8E382 /* KAEnvManager.m in Sources */,
+				F1593DEC1F52E6E900B8E382 /* KAAPIClient.m in Sources */,
+				F1571A511ED8652200BB8019 /* KAUserManager.m in Sources */,
+				F1593DF41F52E75B00B8E382 /* KASlidingPopupManager.m in Sources */,
+				F1E8D7C71F52E14D00836AD8 /* UIImage+Utils.m in Sources */,
+				F1E8D7C51F52E14D00836AD8 /* NSString+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1ABB7541ED7228C00C661FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15719FB1ED7231200BB8019 /* KAAppDelegate.m in Sources */,
+				F1AB74061EF0942D00A3FC8F /* KADebugHelper.m in Sources */,
+				F1571A221ED7256F00BB8019 /* main.m in Sources */,
+				F1EA7EDB1EF52CE70079C43B /* UIView+Utils.m in Sources */,
+				F1313B2A1EEB662100817C00 /* Reachability.m in Sources */,
+				F1313B1C1EEB651D00817C00 /* UIViewController+Utils.m in Sources */,
+				F1981B741EF3243900195A5E /* UIView+Kandu.m in Sources */,
+				F1571A4E1ED76D6800BB8019 /* KASplashScreenVC.m in Sources */,
+				F178605F1F0ACE4700B39D9B /* UIImageView+Utils.m in Sources */,
+				F1313B211EEB659B00817C00 /* KAToolbox.m in Sources */,
+				F1981B791EF3405900195A5E /* NSAttributedString+Kandu.m in Sources */,
+				F1BA3BFD1EF9B25A00AD64A0 /* NSArray+Utils.m in Sources */,
+				F1981B6F1EF1E0DF00195A5E /* UIFont+Kandu.m in Sources */,
+				F1571A521ED8652200BB8019 /* KAUserManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1ABB7481ED7227E00C661FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1ABB7491ED7227E00C661FE /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F1ABB74D1ED7227E00C661FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1ABB74E1ED7227E00C661FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1571A171ED7237C00BB8019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F6A704925099124BEF7172 /* Pods-WeaveTime-production.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 29XZE9TWMA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-production.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geoks.kandu;
+				PRODUCT_NAME = Kandu;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F1571A181ED7237C00BB8019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6F316D423D3570857C781F /* Pods-WeaveTime-production.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 29XZE9TWMA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-production.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geoks.kandu;
+				PRODUCT_NAME = Kandu;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F1ABB7341ED71F2D00C661FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		F1ABB7351ED71F2D00C661FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1ABB76D1ED7228C00C661FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F40C6CD8185C11FAABB03DC /* Pods-WeaveTime-internal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29XZE9TWMA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-internal.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geoks.kandu-internal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1ABB76E1ED7228C00C661FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ADD29829C82E1AF29919C0 /* Pods-WeaveTime-internal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29XZE9TWMA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-internal.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geoks.kandu-internal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1571A161ED7237C00BB8019 /* Build configuration list for PBXNativeTarget "Kandu-production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1571A171ED7237C00BB8019 /* Debug */,
+				F1571A181ED7237C00BB8019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1ABB71A1ED71F2D00C661FE /* Build configuration list for PBXProject "Kandu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1ABB7341ED71F2D00C661FE /* Debug */,
+				F1ABB7351ED71F2D00C661FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1ABB76C1ED7228C00C661FE /* Build configuration list for PBXNativeTarget "Kandu-internal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1ABB76D1ED7228C00C661FE /* Debug */,
+				F1ABB76E1ED7228C00C661FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1ABB7171ED71F2D00C661FE /* Project object */;
+}
