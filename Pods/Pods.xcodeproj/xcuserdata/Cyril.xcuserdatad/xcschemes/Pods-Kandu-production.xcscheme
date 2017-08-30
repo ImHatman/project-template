@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0AE047D9D546FE0587C726EA0193D0CE'
-               BlueprintName = 'Pods-WeaveTime-internal'
+               BlueprintIdentifier = '1E577B0E414364EFEA4CBDF37D794FD7'
+               BlueprintName = 'Pods-Kandu-production'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-WeaveTime-internal.a'>
+               BuildableName = 'libPods-Kandu-production.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -8,6 +8,7 @@
 
 #import "KASplashScreenVC.h"
 #import "KAUserManager.h"
+#import "KALoginVC.h"
 
 @interface KASplashScreenVC ()
 
@@ -35,10 +36,7 @@
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];
     
-    // This delay is to let the app the time to read the KAUser from the NSUserDefaults
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self loadRelevantController];
-    });
+    [self loadRelevantController];
 }
 
 #pragma mark OUT
@@ -67,7 +65,8 @@
 }
 
 - (void)loadLoginScreen {
-//    [[UIApplication sharedApplication].keyWindow setRootViewController:loginVC];
+    UINavigationController *loginNC = [KALoginVC navigatedController];
+    [[UIApplication sharedApplication].keyWindow setRootViewController:loginNC];
 }
 
 - (void)loadHome {

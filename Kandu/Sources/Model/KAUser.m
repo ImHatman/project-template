@@ -1,6 +1,6 @@
 //
 //  KAUser.m
-//  WeaveTime
+//  Kandu
 //
 //  Created by Cyril's Mac on 26/05/17.
 //  Copyright © 2017 Geoks. All rights reserved.

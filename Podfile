@@ -12,6 +12,7 @@ def import_pods
     pod 'AFNetworking', '~> 2.0'
     pod 'SVProgressHUD', '1.1.3'
     pod 'SDWebImage', '~>3.8'
+    pod 'TTTAttributedLabel'
 end
 
 target :'Kandu-production' do

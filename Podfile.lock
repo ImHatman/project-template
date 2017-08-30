@@ -20,7 +20,6 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - LGPlusButtonsView (1.1.1)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -29,18 +28,16 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
-  - LGPlusButtonsView (~> 1.1.0)
   - SDWebImage (~> 3.8)
   - SVProgressHUD (= 1.1.3)
   - TTTAttributedLabel
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  LGPlusButtonsView: 57878cd3d461d0ee2042f5b7b25d1c017e22a084
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: ad2706bb664d89d3bfea9e321ee7eefcb34b6a31
+PODFILE CHECKSUM: 956d97f54b0d743b073c093aa6b890008814ee99
 
 COCOAPODS: 1.2.1

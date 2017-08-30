@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		453079E49E9D0FDC5F315827 /* libPods-WeaveTime-production.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D058F25B55F9D583C6D083 /* libPods-WeaveTime-production.a */; };
-		C4FE6FB8E1766AF3241B4365 /* libPods-WeaveTime-internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD1EE6F1B8AE1EA8BBCCC13 /* libPods-WeaveTime-internal.a */; };
+		3F2C0296DEF15E8B0A06E453 /* libPods-Kandu-internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B958DB1CB26CAFF32231F7D /* libPods-Kandu-internal.a */; };
+		990B219DC1E6E9B6C519FD63 /* libPods-Kandu-production.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3082CFF5C5A79EE970F1CF /* libPods-Kandu-production.a */; };
 		F10F1F701EE8BBFC001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
 		F10F1F711EE8BBFD001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
+		F124F6CC1F56A5A700CD04CB /* KALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F124F6CB1F56A5A700CD04CB /* KALoginVC.m */; };
+		F124F6CD1F56A5A700CD04CB /* KALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F124F6CB1F56A5A700CD04CB /* KALoginVC.m */; };
 		F1313B1B1EEB651D00817C00 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */; };
 		F1313B1C1EEB651D00817C00 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */; };
 		F1313B201EEB659B00817C00 /* KAToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1F1EEB659B00817C00 /* KAToolbox.m */; };
 		F1313B211EEB659B00817C00 /* KAToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B1F1EEB659B00817C00 /* KAToolbox.m */; };
 		F1313B291EEB662100817C00 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B281EEB662100817C00 /* Reachability.m */; };
 		F1313B2A1EEB662100817C00 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F1313B281EEB662100817C00 /* Reachability.m */; };
-		F1313B381EEBE56300817C00 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1313B371EEBE56300817C00 /* Onboarding.storyboard */; };
-		F1313B391EEBE56300817C00 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1313B371EEBE56300817C00 /* Onboarding.storyboard */; };
+		F1313B381EEBE56300817C00 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1313B371EEBE56300817C00 /* Login.storyboard */; };
+		F1313B391EEBE56300817C00 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1313B371EEBE56300817C00 /* Login.storyboard */; };
 		F15719FA1ED7230F00BB8019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB7481ED7227E00C661FE /* Main.storyboard */; };
 		F15719FB1ED7231200BB8019 /* KAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ABB7431ED7227E00C661FE /* KAAppDelegate.m */; };
 		F15719FC1ED7231800BB8019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74D1ED7227E00C661FE /* LaunchScreen.storyboard */; };
@@ -62,16 +64,24 @@
 /* Begin PBXFileReference section */
 		13F6A704925099124BEF7172 /* Pods-WeaveTime-production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-production.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production.debug.xcconfig"; sourceTree = "<group>"; };
 		28ADD29829C82E1AF29919C0 /* Pods-WeaveTime-internal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-internal.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal.release.xcconfig"; sourceTree = "<group>"; };
+		3A3082CFF5C5A79EE970F1CF /* libPods-Kandu-production.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kandu-production.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7EA99C8FE6F814AC946D57 /* Pods-Kandu-production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kandu-production.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kandu-production/Pods-Kandu-production.debug.xcconfig"; sourceTree = "<group>"; };
+		549DA94087A2C32111BE0A68 /* Pods-Kandu-production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kandu-production.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kandu-production/Pods-Kandu-production.release.xcconfig"; sourceTree = "<group>"; };
 		5F40C6CD8185C11FAABB03DC /* Pods-WeaveTime-internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal.debug.xcconfig"; sourceTree = "<group>"; };
 		7A6F316D423D3570857C781F /* Pods-WeaveTime-production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaveTime-production.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production.release.xcconfig"; sourceTree = "<group>"; };
+		7B958DB1CB26CAFF32231F7D /* libPods-Kandu-internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kandu-internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D058F25B55F9D583C6D083 /* libPods-WeaveTime-production.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaveTime-production.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80AC764E55E75FA65DDA1F0 /* Pods-Kandu-internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kandu-internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kandu-internal/Pods-Kandu-internal.debug.xcconfig"; sourceTree = "<group>"; };
 		CBD1EE6F1B8AE1EA8BBCCC13 /* libPods-WeaveTime-internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaveTime-internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA1B7C2DE73A9F01F868ADC /* Pods-Kandu-internal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kandu-internal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kandu-internal/Pods-Kandu-internal.release.xcconfig"; sourceTree = "<group>"; };
+		F124F6CA1F56A5A700CD04CB /* KALoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KALoginVC.h; sourceTree = "<group>"; };
+		F124F6CB1F56A5A700CD04CB /* KALoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KALoginVC.m; sourceTree = "<group>"; };
 		F1313B191EEB651D00817C00 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
 		F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
 		F1313B1F1EEB659B00817C00 /* KAToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAToolbox.m; sourceTree = "<group>"; };
 		F1313B271EEB662100817C00 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		F1313B281EEB662100817C00 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		F1313B371EEBE56300817C00 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Onboarding.storyboard; path = ../Onboarding.storyboard; sourceTree = "<group>"; };
+		F1313B371EEBE56300817C00 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = ../Login.storyboard; sourceTree = "<group>"; };
 		F1571A021ED7237C00BB8019 /* Kandu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kandu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1571A1E1ED7242900BB8019 /* Info-internal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-internal.plist"; sourceTree = "<group>"; };
 		F1571A411ED76B9D00BB8019 /* KAPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAPrefixHeader.pch; sourceTree = "<group>"; };
@@ -133,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453079E49E9D0FDC5F315827 /* libPods-WeaveTime-production.a in Frameworks */,
+				990B219DC1E6E9B6C519FD63 /* libPods-Kandu-production.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4FE6FB8E1766AF3241B4365 /* libPods-WeaveTime-internal.a in Frameworks */,
+				3F2C0296DEF15E8B0A06E453 /* libPods-Kandu-internal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +165,10 @@
 				28ADD29829C82E1AF29919C0 /* Pods-WeaveTime-internal.release.xcconfig */,
 				13F6A704925099124BEF7172 /* Pods-WeaveTime-production.debug.xcconfig */,
 				7A6F316D423D3570857C781F /* Pods-WeaveTime-production.release.xcconfig */,
+				C80AC764E55E75FA65DDA1F0 /* Pods-Kandu-internal.debug.xcconfig */,
+				EDA1B7C2DE73A9F01F868ADC /* Pods-Kandu-internal.release.xcconfig */,
+				4C7EA99C8FE6F814AC946D57 /* Pods-Kandu-production.debug.xcconfig */,
+				549DA94087A2C32111BE0A68 /* Pods-Kandu-production.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -164,6 +178,8 @@
 			children = (
 				CBD1EE6F1B8AE1EA8BBCCC13 /* libPods-WeaveTime-internal.a */,
 				B0D058F25B55F9D583C6D083 /* libPods-WeaveTime-production.a */,
+				7B958DB1CB26CAFF32231F7D /* libPods-Kandu-internal.a */,
+				3A3082CFF5C5A79EE970F1CF /* libPods-Kandu-production.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +200,15 @@
 				F1313B1F1EEB659B00817C00 /* KAToolbox.m */,
 			);
 			name = Toolbox;
+			sourceTree = "<group>";
+		};
+		F124F6C91F56A58800CD04CB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F124F6CA1F56A5A700CD04CB /* KALoginVC.h */,
+				F124F6CB1F56A5A700CD04CB /* KALoginVC.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 		F1313B061EEB421800817C00 /* Environment */ = {
@@ -335,6 +360,7 @@
 		F1571A461ED76CDA00BB8019 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F124F6C91F56A58800CD04CB /* Login */,
 				F1313B3F1EEBF0A900817C00 /* Splash */,
 			);
 			path = Controllers;
@@ -380,7 +406,7 @@
 			isa = PBXGroup;
 			children = (
 				F1ABB7481ED7227E00C661FE /* Main.storyboard */,
-				F1313B371EEBE56300817C00 /* Onboarding.storyboard */,
+				F1313B371EEBE56300817C00 /* Login.storyboard */,
 				F1ABB74D1ED7227E00C661FE /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
@@ -590,7 +616,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1313B381EEBE56300817C00 /* Onboarding.storyboard in Resources */,
+				F1313B381EEBE56300817C00 /* Login.storyboard in Resources */,
 				F1571A1C1ED723C800BB8019 /* LaunchScreen.storyboard in Resources */,
 				F10F1F701EE8BBFC001061A9 /* Assets.xcassets in Resources */,
 				F1571A1B1ED723C400BB8019 /* Main.storyboard in Resources */,
@@ -601,7 +627,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1313B391EEBE56300817C00 /* Onboarding.storyboard in Resources */,
+				F1313B391EEBE56300817C00 /* Login.storyboard in Resources */,
 				F15719FA1ED7230F00BB8019 /* Main.storyboard in Resources */,
 				F10F1F711EE8BBFD001061A9 /* Assets.xcassets in Resources */,
 				F15719FC1ED7231800BB8019 /* LaunchScreen.storyboard in Resources */,
@@ -638,7 +664,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kandu-internal/Pods-Kandu-internal-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7C8F1597876F1F8A365126E0 /* [CP] Embed Pods Frameworks */ = {
@@ -653,7 +679,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-internal/Pods-WeaveTime-internal-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kandu-internal/Pods-Kandu-internal-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E9295E1334E58CEC41006C74 /* [CP] Check Pods Manifest.lock */ = {
@@ -683,7 +709,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kandu-production/Pods-Kandu-production-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FCB4D951AD52C659B0259CE0 /* [CP] Embed Pods Frameworks */ = {
@@ -698,7 +724,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeaveTime-production/Pods-WeaveTime-production-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kandu-production/Pods-Kandu-production-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -713,6 +739,7 @@
 				F1E8D7C41F52E14D00836AD8 /* NSMutableDictionary+Utils.m in Sources */,
 				F1571A211ED7256F00BB8019 /* main.m in Sources */,
 				F1EA7EDA1EF52CE70079C43B /* UIView+Utils.m in Sources */,
+				F124F6CC1F56A5A700CD04CB /* KALoginVC.m in Sources */,
 				F1313B291EEB662100817C00 /* Reachability.m in Sources */,
 				F1E8D7CA1F52E16500836AD8 /* KARequestOperator.m in Sources */,
 				F1313B1B1EEB651D00817C00 /* UIViewController+Utils.m in Sources */,
@@ -743,6 +770,7 @@
 			files = (
 				F15719FB1ED7231200BB8019 /* KAAppDelegate.m in Sources */,
 				F1AB74061EF0942D00A3FC8F /* KADebugHelper.m in Sources */,
+				F124F6CD1F56A5A700CD04CB /* KALoginVC.m in Sources */,
 				F1571A221ED7256F00BB8019 /* main.m in Sources */,
 				F1EA7EDB1EF52CE70079C43B /* UIView+Utils.m in Sources */,
 				F1313B2A1EEB662100817C00 /* Reachability.m in Sources */,
@@ -784,15 +812,18 @@
 /* Begin XCBuildConfiguration section */
 		F1571A171ED7237C00BB8019 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F6A704925099124BEF7172 /* Pods-WeaveTime-production.debug.xcconfig */;
+			baseConfigurationReference = 4C7EA99C8FE6F814AC946D57 /* Pods-Kandu-production.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEVELOPMENT_TEAM = 29XZE9TWMA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -807,15 +838,18 @@
 		};
 		F1571A181ED7237C00BB8019 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A6F316D423D3570857C781F /* Pods-WeaveTime-production.release.xcconfig */;
+			baseConfigurationReference = 549DA94087A2C32111BE0A68 /* Pods-Kandu-production.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEVELOPMENT_TEAM = 29XZE9TWMA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-production.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -919,7 +953,7 @@
 		};
 		F1ABB76D1ED7228C00C661FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F40C6CD8185C11FAABB03DC /* Pods-WeaveTime-internal.debug.xcconfig */;
+			baseConfigurationReference = C80AC764E55E75FA65DDA1F0 /* Pods-Kandu-internal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 29XZE9TWMA;
@@ -938,7 +972,7 @@
 		};
 		F1ABB76E1ED7228C00C661FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28ADD29829C82E1AF29919C0 /* Pods-WeaveTime-internal.release.xcconfig */;
+			baseConfigurationReference = EDA1B7C2DE73A9F01F868ADC /* Pods-Kandu-internal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 29XZE9TWMA;

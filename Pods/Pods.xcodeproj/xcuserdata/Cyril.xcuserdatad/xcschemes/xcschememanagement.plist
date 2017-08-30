@@ -9,17 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>LGPlusButtonsView.xcscheme</key>
+		<key>Pods-Kandu-internal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-WeaveTime-internal.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-WeaveTime-production.xcscheme</key>
+		<key>Pods-Kandu-production.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,22 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0AE047D9D546FE0587C726EA0193D0CE</key>
+		<key>188003BD34D8E7DC359E205C822A30D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3E4F42329B6B9617356E7A571F7942B9</key>
+		<key>1E577B0E414364EFEA4CBDF37D794FD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C8BCCAA98E530A823CFA3CBF4BD10C2</key>
+		<key>535B0E0443DABE52B61BF458766CEF9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4FF93E78FC4D09F983CB162C47AA74CB</key>
+		<key>8D6D66E9E5DD6B4DBC55E5C1D50DBF77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C80BC9379F9A4B01F00DF690726BA2D6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E06C75E54C2B08D868264D91868BB4A7</key>
+		<key>F56290AB65C0BBCB12C72E00215675A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

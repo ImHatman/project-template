@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3E4F42329B6B9617356E7A571F7942B9'
-               BlueprintName = 'LGPlusButtonsView'
+               BlueprintIdentifier = 'F56290AB65C0BBCB12C72E00215675A1'
+               BlueprintName = 'Pods-Kandu-internal'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libLGPlusButtonsView.a'>
+               BuildableName = 'libPods-Kandu-internal.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

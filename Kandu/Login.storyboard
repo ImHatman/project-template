@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="P9a-9r-63K">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash ScreenVC-->
+        <scene sceneID="Lp1-Gz-Ne6">
+            <objects>
+                <viewController storyboardIdentifier="WTSplashScreenVC" id="P9a-9r-63K" customClass="KASplashScreenVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K13-93-eQZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="gyJ-gO-epZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1yL-Y4-faq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEc-xS-MMA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2494" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Aez-Ka-BBn">
+            <objects>
+                <navigationController storyboardIdentifier="KALoginNC" id="leE-Ac-TY1" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="O0t-E5-eYi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="adN-8p-2dV" kind="relationship" relationship="rootViewController" id="3ms-xe-exd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9H-AO-Vlu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1365" y="133"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="S7d-Wa-K8Y">
+            <objects>
+                <viewController storyboardIdentifier="KALoginVC" id="adN-8p-2dV" customClass="KALoginVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N6V-If-Gwz"/>
+                        <viewControllerLayoutGuide type="bottom" id="TSr-MO-nlc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c14-J9-V9u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tWb-c1-ghr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JmW-j2-GMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-446" y="132"/>
+        </scene>
+    </scenes>
+</document>
