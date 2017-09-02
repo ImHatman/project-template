@@ -16,4 +16,9 @@
     return newSize;
 }
 
+- (void)displayCloseButton {
+    
+    UIButton *button = [UI]
+}
+
 @end

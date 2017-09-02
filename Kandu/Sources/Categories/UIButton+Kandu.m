@@ -14,7 +14,7 @@
     self.backgroundColor = [UIColor primaryColor];
     self.titleLabel.font = [UIFont mainBoldFontWithSize:16];
     [self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    self.layer.cornerRadius = (cornered) ? 3 : 0;
+    self.layer.cornerRadius = (cornered) ? 2 : 0;
 }
 
 @end

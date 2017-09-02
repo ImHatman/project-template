@@ -17,6 +17,8 @@
 		F10876F11F5AC4ED00E657AD /* KAWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876EE1F5AC4ED00E657AD /* KAWebVC.m */; };
 		F10876F21F5AC4ED00E657AD /* WTWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */; };
 		F10876F31F5AC4ED00E657AD /* WTWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */; };
+		F10876F71F5ADD6200E657AD /* KAResetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876F61F5ADD6200E657AD /* KAResetPasswordVC.m */; };
+		F10876F81F5ADD6200E657AD /* KAResetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876F61F5ADD6200E657AD /* KAResetPasswordVC.m */; };
 		F10F1F701EE8BBFC001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
 		F10F1F711EE8BBFD001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
 		F124F6CC1F56A5A700CD04CB /* KALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F124F6CB1F56A5A700CD04CB /* KALoginVC.m */; };
@@ -99,6 +101,8 @@
 		F10876ED1F5AC4ED00E657AD /* KAWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWebVC.h; sourceTree = "<group>"; };
 		F10876EE1F5AC4ED00E657AD /* KAWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAWebVC.m; sourceTree = "<group>"; };
 		F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTWebVC.xib; sourceTree = "<group>"; };
+		F10876F51F5ADD6200E657AD /* KAResetPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAResetPasswordVC.h; sourceTree = "<group>"; };
+		F10876F61F5ADD6200E657AD /* KAResetPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAResetPasswordVC.m; sourceTree = "<group>"; };
 		F124F6CA1F56A5A700CD04CB /* KALoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KALoginVC.h; sourceTree = "<group>"; };
 		F124F6CB1F56A5A700CD04CB /* KALoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KALoginVC.m; sourceTree = "<group>"; };
 		F1313B191EEB651D00817C00 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
@@ -241,6 +245,15 @@
 				F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */,
 			);
 			name = WebVC;
+			sourceTree = "<group>";
+		};
+		F10876F41F5ADD4600E657AD /* Reset Pwd */ = {
+			isa = PBXGroup;
+			children = (
+				F10876F51F5ADD6200E657AD /* KAResetPasswordVC.h */,
+				F10876F61F5ADD6200E657AD /* KAResetPasswordVC.m */,
+			);
+			name = "Reset Pwd";
 			sourceTree = "<group>";
 		};
 		F10F1F721EE9207C001061A9 /* UIImage */ = {
@@ -423,6 +436,7 @@
 		F1571A461ED76CDA00BB8019 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F10876F41F5ADD4600E657AD /* Reset Pwd */,
 				F10876EC1F5AC4C000E657AD /* WebVC */,
 				F124F6C91F56A58800CD04CB /* Login */,
 				F1313B3F1EEBF0A900817C00 /* Splash */,
@@ -829,6 +843,7 @@
 				F1313B291EEB662100817C00 /* Reachability.m in Sources */,
 				F1E8D7CA1F52E16500836AD8 /* KARequestOperator.m in Sources */,
 				F1313B1B1EEB651D00817C00 /* UIViewController+Utils.m in Sources */,
+				F10876F71F5ADD6200E657AD /* KAResetPasswordVC.m in Sources */,
 				F1981B731EF3243900195A5E /* UIView+Kandu.m in Sources */,
 				F1593DF31F52E75B00B8E382 /* KAPopupFactory.m in Sources */,
 				F10876E91F5AC1FC00E657AD /* UIButton+Kandu.m in Sources */,
@@ -859,6 +874,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15719FB1ED7231200BB8019 /* KAAppDelegate.m in Sources */,
+				F10876F81F5ADD6200E657AD /* KAResetPasswordVC.m in Sources */,
 				F1AB74061EF0942D00A3FC8F /* KADebugHelper.m in Sources */,
 				F10876F11F5AC4ED00E657AD /* KAWebVC.m in Sources */,
 				F124F6CD1F56A5A700CD04CB /* KALoginVC.m in Sources */,

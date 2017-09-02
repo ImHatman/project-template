@@ -17,6 +17,7 @@
 + (UIColor *)darkLabelColor;
 + (UIColor *)lightLabelColor;
 + (UIColor *)backgroundColor;
++ (UIColor *)separatorViewsColor;
 + (UIColor *)textfieldBackgroundColor;
 
 + (UIColor *)grayF6;

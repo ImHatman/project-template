@@ -38,6 +38,10 @@
     return [UIColor colorWithHexaString:@"#FBFCFC"];
 }
 
++ (UIColor *)separatorViewsColor {
+    return [UIColor colorWithHexaString:@"#D9E0E1"];
+}
+
 + (UIColor *)textfieldBackgroundColor {
     return [UIColor colorWithHexaString:@"#F6F8F9"];
 }
