@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		3F2C0296DEF15E8B0A06E453 /* libPods-Kandu-internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B958DB1CB26CAFF32231F7D /* libPods-Kandu-internal.a */; };
 		990B219DC1E6E9B6C519FD63 /* libPods-Kandu-production.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3082CFF5C5A79EE970F1CF /* libPods-Kandu-production.a */; };
+		F10876E51F5ABD0B00E657AD /* UINavigationBar+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876E41F5ABD0B00E657AD /* UINavigationBar+Utils.m */; };
+		F10876E61F5ABD0B00E657AD /* UINavigationBar+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876E41F5ABD0B00E657AD /* UINavigationBar+Utils.m */; };
+		F10876E91F5AC1FC00E657AD /* UIButton+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876E81F5AC1FC00E657AD /* UIButton+Kandu.m */; };
+		F10876EA1F5AC1FC00E657AD /* UIButton+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876E81F5AC1FC00E657AD /* UIButton+Kandu.m */; };
+		F10876F01F5AC4ED00E657AD /* KAWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876EE1F5AC4ED00E657AD /* KAWebVC.m */; };
+		F10876F11F5AC4ED00E657AD /* KAWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F10876EE1F5AC4ED00E657AD /* KAWebVC.m */; };
+		F10876F21F5AC4ED00E657AD /* WTWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */; };
+		F10876F31F5AC4ED00E657AD /* WTWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */; };
 		F10F1F701EE8BBFC001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
 		F10F1F711EE8BBFD001061A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABB74B1ED7227E00C661FE /* Assets.xcassets */; };
 		F124F6CC1F56A5A700CD04CB /* KALoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F124F6CB1F56A5A700CD04CB /* KALoginVC.m */; };
@@ -52,6 +60,16 @@
 		F1AB74061EF0942D00A3FC8F /* KADebugHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB74041EF0942D00A3FC8F /* KADebugHelper.m */; };
 		F1BA3BFC1EF9B25A00AD64A0 /* NSArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA3BFB1EF9B25A00AD64A0 /* NSArray+Utils.m */; };
 		F1BA3BFD1EF9B25A00AD64A0 /* NSArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BA3BFB1EF9B25A00AD64A0 /* NSArray+Utils.m */; };
+		F1CCA8FF1F586A4100834CC1 /* UIViewController+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CCA8FE1F586A4100834CC1 /* UIViewController+Kandu.m */; };
+		F1CCA9001F586A4100834CC1 /* UIViewController+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CCA8FE1F586A4100834CC1 /* UIViewController+Kandu.m */; };
+		F1CCA9061F5AB2AD00834CC1 /* DINOT-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9021F5AB2AD00834CC1 /* DINOT-Bold.otf */; };
+		F1CCA9071F5AB2AD00834CC1 /* DINOT-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9021F5AB2AD00834CC1 /* DINOT-Bold.otf */; };
+		F1CCA9081F5AB2AD00834CC1 /* DINOT-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9031F5AB2AD00834CC1 /* DINOT-Light.otf */; };
+		F1CCA9091F5AB2AD00834CC1 /* DINOT-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9031F5AB2AD00834CC1 /* DINOT-Light.otf */; };
+		F1CCA90A1F5AB2AD00834CC1 /* DINOT-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9041F5AB2AD00834CC1 /* DINOT-Medium.otf */; };
+		F1CCA90B1F5AB2AD00834CC1 /* DINOT-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9041F5AB2AD00834CC1 /* DINOT-Medium.otf */; };
+		F1CCA90C1F5AB2AD00834CC1 /* DINOT.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9051F5AB2AD00834CC1 /* DINOT.otf */; };
+		F1CCA90D1F5AB2AD00834CC1 /* DINOT.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA9051F5AB2AD00834CC1 /* DINOT.otf */; };
 		F1E8D7C41F52E14D00836AD8 /* NSMutableDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7BD1F52E14D00836AD8 /* NSMutableDictionary+Utils.m */; };
 		F1E8D7C51F52E14D00836AD8 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7BF1F52E14D00836AD8 /* NSString+Utils.m */; };
 		F1E8D7C61F52E14D00836AD8 /* UIColor+Kandu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E8D7C11F52E14D00836AD8 /* UIColor+Kandu.m */; };
@@ -74,6 +92,13 @@
 		C80AC764E55E75FA65DDA1F0 /* Pods-Kandu-internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kandu-internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kandu-internal/Pods-Kandu-internal.debug.xcconfig"; sourceTree = "<group>"; };
 		CBD1EE6F1B8AE1EA8BBCCC13 /* libPods-WeaveTime-internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeaveTime-internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA1B7C2DE73A9F01F868ADC /* Pods-Kandu-internal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kandu-internal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kandu-internal/Pods-Kandu-internal.release.xcconfig"; sourceTree = "<group>"; };
+		F10876E31F5ABD0B00E657AD /* UINavigationBar+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Utils.h"; sourceTree = "<group>"; };
+		F10876E41F5ABD0B00E657AD /* UINavigationBar+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Utils.m"; sourceTree = "<group>"; };
+		F10876E71F5AC1FC00E657AD /* UIButton+Kandu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Kandu.h"; sourceTree = "<group>"; };
+		F10876E81F5AC1FC00E657AD /* UIButton+Kandu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Kandu.m"; sourceTree = "<group>"; };
+		F10876ED1F5AC4ED00E657AD /* KAWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWebVC.h; sourceTree = "<group>"; };
+		F10876EE1F5AC4ED00E657AD /* KAWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAWebVC.m; sourceTree = "<group>"; };
+		F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTWebVC.xib; sourceTree = "<group>"; };
 		F124F6CA1F56A5A700CD04CB /* KALoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KALoginVC.h; sourceTree = "<group>"; };
 		F124F6CB1F56A5A700CD04CB /* KALoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KALoginVC.m; sourceTree = "<group>"; };
 		F1313B191EEB651D00817C00 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
@@ -124,6 +149,12 @@
 		F1ABB7581ED7228C00C661FE /* Kandu-internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kandu-internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA3BFA1EF9B25A00AD64A0 /* NSArray+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utils.h"; sourceTree = "<group>"; };
 		F1BA3BFB1EF9B25A00AD64A0 /* NSArray+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utils.m"; sourceTree = "<group>"; };
+		F1CCA8FD1F586A4100834CC1 /* UIViewController+Kandu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Kandu.h"; sourceTree = "<group>"; };
+		F1CCA8FE1F586A4100834CC1 /* UIViewController+Kandu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Kandu.m"; sourceTree = "<group>"; };
+		F1CCA9021F5AB2AD00834CC1 /* DINOT-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Bold.otf"; sourceTree = "<group>"; };
+		F1CCA9031F5AB2AD00834CC1 /* DINOT-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Light.otf"; sourceTree = "<group>"; };
+		F1CCA9041F5AB2AD00834CC1 /* DINOT-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Medium.otf"; sourceTree = "<group>"; };
+		F1CCA9051F5AB2AD00834CC1 /* DINOT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINOT.otf; sourceTree = "<group>"; };
 		F1E8D7BC1F52E14D00836AD8 /* NSMutableDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Utils.h"; path = "Kandu/Sources/Categories/NSMutableDictionary+Utils.h"; sourceTree = SOURCE_ROOT; };
 		F1E8D7BD1F52E14D00836AD8 /* NSMutableDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Utils.m"; path = "Kandu/Sources/Categories/NSMutableDictionary+Utils.m"; sourceTree = SOURCE_ROOT; };
 		F1E8D7BE1F52E14D00836AD8 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "Kandu/Sources/Categories/NSString+Utils.h"; sourceTree = SOURCE_ROOT; };
@@ -184,6 +215,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F10876E21F5ABCF400E657AD /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F10876E31F5ABD0B00E657AD /* UINavigationBar+Utils.h */,
+				F10876E41F5ABD0B00E657AD /* UINavigationBar+Utils.m */,
+			);
+			name = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		F10876EB1F5AC1FF00E657AD /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				F10876E71F5AC1FC00E657AD /* UIButton+Kandu.h */,
+				F10876E81F5AC1FC00E657AD /* UIButton+Kandu.m */,
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
+		F10876EC1F5AC4C000E657AD /* WebVC */ = {
+			isa = PBXGroup;
+			children = (
+				F10876ED1F5AC4ED00E657AD /* KAWebVC.h */,
+				F10876EE1F5AC4ED00E657AD /* KAWebVC.m */,
+				F10876EF1F5AC4ED00E657AD /* WTWebVC.xib */,
+			);
+			name = WebVC;
+			sourceTree = "<group>";
+		};
 		F10F1F721EE9207C001061A9 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +293,8 @@
 			children = (
 				F1313B191EEB651D00817C00 /* UIViewController+Utils.h */,
 				F1313B1A1EEB651D00817C00 /* UIViewController+Utils.m */,
+				F1CCA8FD1F586A4100834CC1 /* UIViewController+Kandu.h */,
+				F1CCA8FE1F586A4100834CC1 /* UIViewController+Kandu.m */,
 			);
 			name = UIViewController;
 			sourceTree = "<group>";
@@ -294,6 +355,8 @@
 		F1571A2F1ED728E000BB8019 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				F10876EB1F5AC1FF00E657AD /* UIButton */,
+				F10876E21F5ABCF400E657AD /* UINavigationBar */,
 				F178605B1F0ACE2700B39D9B /* UIImageView */,
 				F1BA3BF91EF9B24500AD64A0 /* NSArray */,
 				F1981B751EF3404500195A5E /* NSAttributedString */,
@@ -360,6 +423,7 @@
 		F1571A461ED76CDA00BB8019 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F10876EC1F5AC4C000E657AD /* WebVC */,
 				F124F6C91F56A58800CD04CB /* Login */,
 				F1313B3F1EEBF0A900817C00 /* Splash */,
 			);
@@ -483,6 +547,7 @@
 		F1ABB73F1ED7227E00C661FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1CCA9011F5AB29900834CC1 /* Fonts */,
 				F1ABB74B1ED7227E00C661FE /* Assets.xcassets */,
 				F1ABB7401ED7227E00C661FE /* main.m */,
 				F15719FD1ED7231F00BB8019 /* plist */,
@@ -525,6 +590,17 @@
 			children = (
 			);
 			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		F1CCA9011F5AB29900834CC1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCA9021F5AB2AD00834CC1 /* DINOT-Bold.otf */,
+				F1CCA9031F5AB2AD00834CC1 /* DINOT-Light.otf */,
+				F1CCA9041F5AB2AD00834CC1 /* DINOT-Medium.otf */,
+				F1CCA9051F5AB2AD00834CC1 /* DINOT.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -617,8 +693,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1313B381EEBE56300817C00 /* Login.storyboard in Resources */,
+				F1CCA90A1F5AB2AD00834CC1 /* DINOT-Medium.otf in Resources */,
 				F1571A1C1ED723C800BB8019 /* LaunchScreen.storyboard in Resources */,
 				F10F1F701EE8BBFC001061A9 /* Assets.xcassets in Resources */,
+				F1CCA9081F5AB2AD00834CC1 /* DINOT-Light.otf in Resources */,
+				F1CCA9061F5AB2AD00834CC1 /* DINOT-Bold.otf in Resources */,
+				F1CCA90C1F5AB2AD00834CC1 /* DINOT.otf in Resources */,
+				F10876F21F5AC4ED00E657AD /* WTWebVC.xib in Resources */,
 				F1571A1B1ED723C400BB8019 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,8 +709,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1313B391EEBE56300817C00 /* Login.storyboard in Resources */,
+				F1CCA90B1F5AB2AD00834CC1 /* DINOT-Medium.otf in Resources */,
 				F15719FA1ED7230F00BB8019 /* Main.storyboard in Resources */,
 				F10F1F711EE8BBFD001061A9 /* Assets.xcassets in Resources */,
+				F1CCA9091F5AB2AD00834CC1 /* DINOT-Light.otf in Resources */,
+				F1CCA9071F5AB2AD00834CC1 /* DINOT-Bold.otf in Resources */,
+				F1CCA90D1F5AB2AD00834CC1 /* DINOT.otf in Resources */,
+				F10876F31F5AC4ED00E657AD /* WTWebVC.xib in Resources */,
 				F15719FC1ED7231800BB8019 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,9 +831,13 @@
 				F1313B1B1EEB651D00817C00 /* UIViewController+Utils.m in Sources */,
 				F1981B731EF3243900195A5E /* UIView+Kandu.m in Sources */,
 				F1593DF31F52E75B00B8E382 /* KAPopupFactory.m in Sources */,
+				F10876E91F5AC1FC00E657AD /* UIButton+Kandu.m in Sources */,
 				F1571A4D1ED76D6800BB8019 /* KASplashScreenVC.m in Sources */,
 				F178605E1F0ACE4700B39D9B /* UIImageView+Utils.m in Sources */,
+				F10876E51F5ABD0B00E657AD /* UINavigationBar+Utils.m in Sources */,
 				F1313B201EEB659B00817C00 /* KAToolbox.m in Sources */,
+				F10876F01F5AC4ED00E657AD /* KAWebVC.m in Sources */,
+				F1CCA8FF1F586A4100834CC1 /* UIViewController+Kandu.m in Sources */,
 				F1981B781EF3405900195A5E /* NSAttributedString+Kandu.m in Sources */,
 				F1E8D7C61F52E14D00836AD8 /* UIColor+Kandu.m in Sources */,
 				F1593DFC1F52E82D00B8E382 /* KAUser.m in Sources */,
@@ -770,6 +860,7 @@
 			files = (
 				F15719FB1ED7231200BB8019 /* KAAppDelegate.m in Sources */,
 				F1AB74061EF0942D00A3FC8F /* KADebugHelper.m in Sources */,
+				F10876F11F5AC4ED00E657AD /* KAWebVC.m in Sources */,
 				F124F6CD1F56A5A700CD04CB /* KALoginVC.m in Sources */,
 				F1571A221ED7256F00BB8019 /* main.m in Sources */,
 				F1EA7EDB1EF52CE70079C43B /* UIView+Utils.m in Sources */,
@@ -779,9 +870,12 @@
 				F1571A4E1ED76D6800BB8019 /* KASplashScreenVC.m in Sources */,
 				F178605F1F0ACE4700B39D9B /* UIImageView+Utils.m in Sources */,
 				F1313B211EEB659B00817C00 /* KAToolbox.m in Sources */,
+				F10876EA1F5AC1FC00E657AD /* UIButton+Kandu.m in Sources */,
 				F1981B791EF3405900195A5E /* NSAttributedString+Kandu.m in Sources */,
+				F10876E61F5ABD0B00E657AD /* UINavigationBar+Utils.m in Sources */,
 				F1BA3BFD1EF9B25A00AD64A0 /* NSArray+Utils.m in Sources */,
 				F1981B6F1EF1E0DF00195A5E /* UIFont+Kandu.m in Sources */,
+				F1CCA9001F586A4100834CC1 /* UIViewController+Kandu.m in Sources */,
 				F1571A521ED8652200BB8019 /* KAUserManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -963,7 +1057,7 @@
 				);
 				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-internal.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geoks.kandu-internal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -982,7 +1076,7 @@
 				);
 				GCC_PREFIX_HEADER = "Kandu/Supporting Files/KAPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Kandu/Supporting Files/Info-internal.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geoks.kandu-internal";
 				PRODUCT_NAME = "$(TARGET_NAME)";

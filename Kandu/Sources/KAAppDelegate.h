@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #define SHOULD_ERASE_LOCAL_USER 0
-#define SHOULD_FORCE_UPDATE_PROFILE_VC_DISPLAY_AFTER_LOGIN 0
+#define SHOULD_SKIP_AUTHENTICATION 1
 
 @interface KAAppDelagate : UIResponder <UIApplicationDelegate>
 

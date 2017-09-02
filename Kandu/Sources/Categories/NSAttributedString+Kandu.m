@@ -14,8 +14,8 @@
     NSString *fullString = [NSString stringWithFormat:@"%@ %@", boldString, lightString];
     
     NSMutableAttributedString *attr = [[NSMutableAttributedString alloc] initWithString:fullString];
-    [attr addAttribute:NSFontAttributeName value:[UIFont titleBoldFontWithSize:fontSize] range:[fullString rangeOfString:boldString]];
-    [attr addAttribute:NSFontAttributeName value:[UIFont titleLightFontWithSize:fontSize] range:[fullString rangeOfString:lightString]];
+//    [attr addAttribute:NSFontAttributeName value:[UIFont titleBoldFontWithSize:fontSize] range:[fullString rangeOfString:boldString]];
+//    [attr addAttribute:NSFontAttributeName value:[UIFont titleLightFontWithSize:fontSize] range:[fullString rangeOfString:lightString]];
     return attr;
 }
 

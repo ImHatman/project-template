@@ -12,7 +12,7 @@
 
 + (UIFont *)mainFontWithSize:(CGFloat)fontSize;
 + (UIFont *)mainBoldFontWithSize:(CGFloat)fontSize;
-+ (UIFont *)titleBoldFontWithSize:(CGFloat)fontSize;
-+ (UIFont *)titleLightFontWithSize:(CGFloat)fontSize;
++ (UIFont *)mainMediumFontWithSize:(CGFloat)fontSize;
++ (UIFont *)mainLightFontWithSize:(CGFloat)fontSize;
 
 @end

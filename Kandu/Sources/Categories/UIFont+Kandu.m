@@ -11,19 +11,19 @@
 @implementation UIFont (Kandu)
 
 + (UIFont *)mainFontWithSize:(CGFloat)fontSize {
-    return [UIFont fontWithName:@"HelveticaNeue" size:fontSize];
+    return [UIFont fontWithName:@"DINOT" size:fontSize];
 }
 
 + (UIFont *)mainBoldFontWithSize:(CGFloat)fontSize {
-    return [UIFont fontWithName:@"HelveticaNeue-Bold" size:fontSize];
+    return [UIFont fontWithName:@"DINOT-Bold" size:fontSize];
 }
 
-+ (UIFont *)titleBoldFontWithSize:(CGFloat)fontSize {
-    return [UIFont fontWithName:@"HelveticaNeue-Bold" size:fontSize];
++ (UIFont *)mainMediumFontWithSize:(CGFloat)fontSize {
+    return [UIFont fontWithName:@"DINOT-Medium" size:fontSize];
 }
 
-+ (UIFont *)titleLightFontWithSize:(CGFloat)fontSize {
-    return [UIFont fontWithName:@"HelveticaNeue-Light" size:fontSize];
++ (UIFont *)mainLightFontWithSize:(CGFloat)fontSize {
+    return [UIFont fontWithName:@"DINOT-Light" size:fontSize];
 }
 
 @end

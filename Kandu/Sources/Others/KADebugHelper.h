@@ -11,5 +11,6 @@
 @interface KADebugHelper : NSObject
 
 + (BOOL)shouldEraseLocalUser;
++ (BOOL)shouldSkipAuthentication;
 
 @end

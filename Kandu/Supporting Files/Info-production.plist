@@ -40,5 +40,12 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DINOT.otf</string>
+		<string>DINOT-Bold.otf</string>
+		<string>DINOT-Light.otf</string>
+		<string>DINOT-Medium.otf</string>
+	</array>
 </dict>
 </plist>

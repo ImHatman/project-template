@@ -10,10 +10,14 @@
 
 @interface UIColor (Kandu)
 
-+ (UIColor *)colorWithHexaString:(NSString *)hexString;
-+ (UIColor *)darkBlue;
-+ (UIColor *)lightBlue;
-+ (UIColor *)veryLightBlue;
++ (UIColor *)primaryColor;
++ (UIColor *)lightYellowColor;
++ (UIColor *)turquoiseColor;
++ (UIColor *)errorColor;
++ (UIColor *)darkLabelColor;
++ (UIColor *)lightLabelColor;
++ (UIColor *)backgroundColor;
++ (UIColor *)textfieldBackgroundColor;
 
 + (UIColor *)grayF6;
 + (UIColor *)grayEE;
@@ -22,9 +26,7 @@
 + (UIColor *)gray97;
 + (UIColor *)gray4A;
 + (UIColor *)gray30;
-+ (UIColor *)giveCreditsColor;
-+ (UIColor *)spendCreditsColor;
-+ (UIColor *)placeholderColor;
-+ (UIColor *)keyboardColor;
+
++ (UIColor *)colorWithHexaString:(NSString *)hexString;
 
 @end

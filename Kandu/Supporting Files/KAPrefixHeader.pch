@@ -11,7 +11,8 @@
 
 #define UNINITIALIZED_FLOAT CGFLOAT_MAX
 
-#define NAV_BAR_HEIGHT 44
+#define DEFAULT_NAV_BAR_HEIGHT 44
+#define NAV_BAR_HEIGHT 80
 #define STATUS_BAR_HEIGHT 20
 
 #define IS_IPHONE_4 ([[UIScreen mainScreen] bounds].size.height == 480.0)
@@ -26,9 +27,6 @@
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
 #ifdef __OBJC__
-
-// Debug
-#import "KADebugHelper.h"
 
 // Native Frameworks
 #import <UIKit/UIKit.h>
@@ -50,6 +48,7 @@
 #import "NSArray+Utils.h"
 #import "NSAttributedString+Kandu.h"
 #import <SDWebImage/UIImageView+WebCache.h> // From SDWebImage Framework
+#import "UIButton+Kandu.h"
 
 // Pods
 #import "SVProgressHUD.h"

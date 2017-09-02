@@ -9,6 +9,7 @@
 #import "KAAppDelegate.h"
 #import "KAUserManager.h"
 #import "KAAPIClient.h"
+#import "KADebugHelper.h"
 
 @interface KAAppDelagate ()
 
@@ -20,6 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [self initalizeProgressHUD];
+    [self initalizeNavBarAppearance];
  
     if ([KADebugHelper shouldEraseLocalUser]) {
         [[KAUserManager sharedManager] deleteCurrentUser];
@@ -29,6 +31,8 @@
     [KAAPIClient sharedClient];
     [KAUserManager sharedManager];
     
+    
+    
     return YES;
 }
 
@@ -36,6 +40,14 @@
     [SVProgressHUD setBackgroundColor:[UIColor colorWithWhite:0 alpha:0.85]];
     [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
 }
+
+- (void)initalizeNavBarAppearance {
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor darkLabelColor], NSForegroundColorAttributeName,
+                                                           [UIFont mainFontWithSize:26], NSFontAttributeName, nil]];
+}
+
+#pragma mark - App Life Cycle
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

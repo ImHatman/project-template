@@ -19,4 +19,12 @@
 #endif
 }
 
++ (BOOL)shouldSkipAuthentication {
+#ifdef DEBUG
+    return SHOULD_SKIP_AUTHENTICATION;
+#else
+    return NO;
+#endif    
+}
+
 @end

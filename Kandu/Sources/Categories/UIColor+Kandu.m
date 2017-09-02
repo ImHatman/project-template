@@ -10,6 +10,66 @@
 
 @implementation UIColor (Kandu)
 
++ (UIColor *)primaryColor {
+    return [UIColor turquoiseColor];
+}
+
++ (UIColor *)lightYellowColor {
+    return [UIColor colorWithHexaString:@"#EBE05F"];
+}
+
++ (UIColor *)errorColor {
+    return [UIColor colorWithHexaString:@"#FF6468"];
+}
+
++ (UIColor *)turquoiseColor {
+    return [UIColor colorWithHexaString:@"#009C98"];
+}
+
++ (UIColor *)darkLabelColor {
+    return [UIColor colorWithHexaString:@"#003039"];
+}
+
++ (UIColor *)lightLabelColor {
+    return [UIColor colorWithHexaString:@"#7F979B"];
+}
+
++ (UIColor *)backgroundColor {
+    return [UIColor colorWithHexaString:@"#FBFCFC"];
+}
+
++ (UIColor *)textfieldBackgroundColor {
+    return [UIColor colorWithHexaString:@"#F6F8F9"];
+}
+
++ (UIColor *)grayF6 {
+    return [UIColor colorWithHexaString:@"#F6F6F6"];
+}
+
++ (UIColor *)grayEE {
+    return [UIColor colorWithHexaString:@"#EEEEEE"];
+}
+
++ (UIColor *)grayE0 {
+    return [UIColor colorWithHexaString:@"#E0E0E0"];
+}
+
++ (UIColor *)grayCB {
+    return [UIColor colorWithHexaString:@"#CBCBCB"];
+}
+
++ (UIColor *)gray97 {
+    return [UIColor colorWithHexaString:@"#979797"];
+}
+
++ (UIColor *)gray4A {
+    return [UIColor colorWithHexaString:@"#4A4A4A"];
+}
+
++ (UIColor *)gray30 {
+    return [UIColor colorWithHexaString:@"#303030"];
+}
+
 + (UIColor *)colorWithHexaString:(NSString *)hexString {
     
     @try {
@@ -47,62 +107,6 @@
     } @catch (NSException *exception) {
         return [UIColor blackColor];
     }
-}
-
-+ (UIColor *)darkBlue {
-    return [UIColor colorWithHexaString:@"#0F4873"];
-}
-
-+ (UIColor *)lightBlue {
-    return [UIColor colorWithHexaString:@"#00B6DA"];
-}
-
-+ (UIColor *)veryLightBlue {
-    return [UIColor colorWithHexaString:@"#45D9F6"];
-}
-
-+ (UIColor *)grayF6 {
-    return [UIColor colorWithHexaString:@"#F6F6F6"];
-}
-
-+ (UIColor *)grayEE {
-    return [UIColor colorWithHexaString:@"#EEEEEE"];
-}
-
-+ (UIColor *)grayE0 {
-    return [UIColor colorWithHexaString:@"#E0E0E0"];
-}
-
-+ (UIColor *)grayCB {
-    return [UIColor colorWithHexaString:@"#CBCBCB"];
-}
-
-+ (UIColor *)gray97 {
-    return [UIColor colorWithHexaString:@"#979797"];
-}
-
-+ (UIColor *)gray4A {
-    return [UIColor colorWithHexaString:@"#4A4A4A"];
-}
-
-+ (UIColor *)gray30 {
-    return [UIColor colorWithHexaString:@"#303030"];
-}
-
-+ (UIColor *)giveCreditsColor {
-    return [UIColor colorWithHexaString:@"#00E885"];
-}
-
-+ (UIColor *)spendCreditsColor {
-    return [UIColor colorWithHexaString:@"#7AE7EA"];
-}
-
-+ (UIColor *)placeholderColor {
-    return [UIColor colorWithHexaString:@"#C7C7CD"];
-}
-
-+ (UIColor *)keyboardColor {
-    return [UIColor colorWithHexaString:@"#D1D5DB"];
 }
 
 @end
